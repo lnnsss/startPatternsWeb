@@ -32,9 +32,10 @@ p {
 }
 
 body {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: $baseFontSize;
+  font-weight: $baseFontWeight;
   font-family: $fontOpenSans;
+  color: $black;
 }
 
 .wrapper {
@@ -71,3 +72,18 @@ button {
 }
 
 /*----media-------------------------------------------*/
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
